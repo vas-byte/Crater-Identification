@@ -4,6 +4,8 @@
 This repository contains code to perform Crater Identification on the Chang'e 5 landing sequence using a varation of Christian's method.
 The paper describing Christian's method can be accessed via https://link.springer.com/article/10.1007/s40295-021-00287-8
 
+The report outlining the results is available in this repositry via [this link](report/Report.pdf)
+
 ## Setup local envrionment
 
 Clone the project
