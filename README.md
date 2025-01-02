@@ -1,8 +1,8 @@
 
 # Crater Identification in Chang'e 5 Landing Sequence
 
-This repository contains code to perform Crater Identification on the Chang'e 5 landing sequence using Christian's method.
-
+This repository contains code to perform Crater Identification on the Chang'e 5 landing sequence using a varation of Christian's method.
+The paper describing Christian's method can be accessed via https://link.springer.com/article/10.1007/s40295-021-00287-8
 
 ## Setup local envrionment
 
@@ -53,7 +53,7 @@ In addition, the pnp solver scripts also output
 
 &nbsp;
 
-Access to the results is available via the following link https://universityofadelaide.box.com/s/dhn26bvm4jfkigh7wok66b1qrld64fnz
+Access to the results is available via the following link https://universityofadelaide.box.com/s/cv8mzw0k4g4iqk04z8pvy80faziqu40j
 
 ## Usage
 Note, all python scripts must be executed in the same directory they are contained in.
@@ -98,6 +98,8 @@ Alternatively, you may download the catalogue covering for the Chang'e 5 landing
 ### Preparing Test Input
 In the Chang'e 5 Dataset by Mathhew Roddha, a joblib file named ```CE5-ellipse-labels``` is provided, this must be converted into a csv. This can be done by running the python script below:
 ```python3 create_test_input.py```
+
+This dataset is accessible at https://zenodo.org/records/11326450
 
 ##
 ### Running the CID Methods
